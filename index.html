@@ -8,15 +8,73 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Lets start that thing</h1>
+<h1>Register Page</h1>
+<form action="" method="">
+    <div class="login">
+    <fieldset>
+        <legend>Login Info</legend>
 
-<form action="radio">   
-    <ul>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-        <li>four</li>
-    </ul>
+        <label>Email:<br>
+            <input type="email" name="email">
+        </label>
+        <br>
+
+        <label>Password:<br>
+            <input type="password" name="password">
+        </label>
+
+    </fieldset>
+    
+    </div>
+    <br>
+    <fieldset>
+        <legend>About You</legend>
+
+
+        <label>Full Name:<br>
+            <input type="text" name="full_name">
+        </label>
+        <br>
+
+        <label>Your Birthdate:<br>
+            <input type="date" name=" birthdate">
+        </label>
+        <br>
+        <p>Gender</p>
+        <label>Male
+            <input type="radio" name="gender" value="">
+        </label>
+        <label>Female
+            <input type="radio" name="gender" value="">
+        </label>
+
+        <p>Hobbies:</p>
+        <label>Chess
+            <input type="checkbox" name="gender" value="">
+        </label>
+        <label>Football
+            <input type="checkbox" name="hobbies" value="">
+        </label>
+        <label>Basketball
+            <input type="checkbox" name="hobbies" value="">
+        </label>
+        <label>Baseball
+            <input type="checkbox" name="hobbies" value="">
+        </label>
+
+        <p>Income:</p>
+        <select name="income">
+            <option value="$30.000">$30.000</option>
+            <option value="$60.000">$60.000</option>
+            <option value="$90.000">$90.000</option>
+        </select><br><br><br>
+        <label>Your Bio:<br>
+            <textarea name="description" rows="8" cols="80"></textarea>
+        </label>
+        <br>
+        <input type="submit" name="submit" value="Sign up!">
+    </fieldset>
 </form>
+
 </body>
 </html>
